@@ -9,18 +9,17 @@ class About extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="about-image">
-                                <img src="/images/about/about1.jpg" alt="image" />
-                                <img src="/images/about/about2.jpg" alt="image" />
+                                <img src="/images/about/tools1.png" alt="image" />
+                                <img src="/images/about/tools2.png" alt="image" />
                             </div>
                         </div>
 
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
-                                <h2>Engaging New Audiences Through Smart Approach</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't.</p>
+                                <h2>What is the Virtual Tool?</h2>
+                                <p>There is also a portfolio service for keeping detailed character profiles and design materials, a search service for finding karaoke recordings, and a web tool for displaying subtitles on the distribution screen.</p>
 
-                                <Link href="/about">
+                                <Link href="/tools">
                                     <a className="btn btn-primary">Discover More</a>
                                 </Link>
                             </div>

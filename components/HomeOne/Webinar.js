@@ -21,8 +21,8 @@ class Webinar extends Component {
                     <div className="row m-0">
                         <div className="col-lg-6 p-0">
                             <div className="webinar-content">
-                                <h2>Check Out Our Latest Webinar</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage.</p>
+                                <h2>Let's listen to a state-of-the-art fake voicing.</h2>
+                                <p>Japan's Fake Voice technology is so advanced that it can convert a low male voice into a natural female voice an octave higher. Try listening to it first.</p>
 
                                 <Link href="#">
                                     <a className="btn btn-primary">Watch More</a>
@@ -32,7 +32,7 @@ class Webinar extends Component {
 
                         <div className="col-lg-6 p-0">
                             <div className="webinar-video-image">
-                                <img src="/images/woman.jpg" alt="image" />
+                                <img src="/images/party_night.png" alt="image" />
 
                                 <div
                                     onClick={e => {e.preventDefault(); this.openModal()}}
@@ -44,11 +44,10 @@ class Webinar extends Component {
                         </div>
                     </div>
 
-                    {/* If you want to change the video need to update below videoID */}
                     <ModalVideo 
                         channel='youtube' 
                         isOpen={this.state.isOpen} 
-                        videoId='_ysd-zHamjk' 
+                        videoId='HLUNtpz7j3M' 
                         onClose={() => this.setState({isOpen: false})} 
                     />
                 </section>

@@ -1500,6 +1500,7 @@ About Area CSS
   right: 0;
   bottom: 0;
   border-radius: 0 10px 0 0;
+  width:80%
 }
 
 .about-content {
@@ -2255,7 +2256,7 @@ Webinar Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/woman.jpg);
+  background-image: url(/images/party_night.png);
 }
 
 .webinar-video-image img {
