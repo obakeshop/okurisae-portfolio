@@ -9,16 +9,18 @@ class MainBanner extends Component {
                     <div className="d-table-cell">
                         <div className="container-fluid">
                             <div className="main-banner-content">
-                                <h1>World’s Leading Machine Learning Company</h1>
-                                <p>ML today are able to supply needful of help, information, and positive experience of maintaining intimacy with customers. Eventually, chatbot ideas bring a pleasant experience of all these qualities into the conversation.</p>
+                                <h1>Okuri Sae is Virtual-tool developper</h1>
+                                <p>She is a Vtuber and works mainly on the Internet.
+Her main activities include developing distribution tools and web services for Vtubers.<br></br>
+Also, she knows a lot about voice changer technology and singing, and has posted a lot of feminine singing videos that don't seem to be fake voices.</p>
 
                                 <div className="btn-box">
-                                    <Link href="/contact">
-                                        <a className="btn btn-primary">Schedule A Demo</a>
+                                    <Link href="https://www.youtube.com/channel/UCj9IZnU2bKqGqABhQUU6F8g" target="_blank">
+                                        <a className="btn btn-primary">Subscribe YouTube</a>
                                     </Link>
 
-                                    <Link href="/contact">
-                                        <a className="optional-btn">Get Started Free</a>
+                                    <Link href="https://twitter.com/OkuriSae">
+                                        <a className="optional-btn">See to Twitter</a>
                                     </Link>
                                 </div>
                             </div>
@@ -37,25 +39,25 @@ class MainBanner extends Component {
 
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Robotic Process Automation</a>
+                                            <a>Fakevoice Songs</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
+                                    <p>Listen to a fake voice video of a feminine anime voice that you won't believe was sung by a man.</p>
                                 </div>
                             </div>
 
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-featured-services-box active">
                                     <div className="icon">
-                                        <i className="flaticon-artificial-intelligence"></i>
+                                        <i className="flaticon-robot"></i>
                                     </div>
 
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Cognitive Automation</a>
+                                            <a>Virtual tools</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
+                                    <p>Try to use web tools that can be used by Vtubers, live broadcasters, and singers.</p>
                                 </div>
                             </div>
 
@@ -67,10 +69,10 @@ class MainBanner extends Component {
 
                                     <h3>
                                         <Link href="/service-details">
-                                            <a>Cognitive Engagement</a>
+                                            <a>Technology Blog</a>
                                         </Link>
                                     </h3>
-                                    <p>Lorem ipsum dolor consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam.</p>
+                                    <p>Read technical blogs about web development and voice changers for Vtubers.</p>
                                 </div>
                             </div>
                         </div>
