@@ -7,7 +7,7 @@ class FreeTrialForm extends Component {
                 <div className="row m-0">
                     <div className="col-lg-6 col-md-12 p-0">
                         <div className="free-trial-image">
-                            <img src="/images/woman2.jpg" alt="image" />
+                            <img src="/images/sae2.png" alt="image" />
                         </div>
                     </div>
 

@@ -1073,7 +1073,7 @@ Main Banner Area CSS
   height: 950px;
   position: relative;
   background-image: url(/images/main-banner.jpg);
-  background-position: center center;
+  background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -3619,7 +3619,7 @@ Free Trial Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/woman2.jpg);
+  background-image: url(/images/sae2.png);
 }
 
 .free-trial-image img {

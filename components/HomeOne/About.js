@@ -16,7 +16,7 @@ class About extends Component {
 
                         <div className="col-lg-6 col-md-12">
                             <div className="about-content">
-                                <h2>What is the Virtual Tool?</h2>
+                                <h2>What products are there?</h2>
                                 <p>There is also a portfolio service for keeping detailed character profiles and design materials, a search service for finding karaoke recordings, and a web tool for displaying subtitles on the distribution screen.</p>
 
                                 <Link href="/tools">

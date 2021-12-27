@@ -7,8 +7,8 @@ class Services extends Component {
             <section className="services-area bg-f2f6f9 ptb-110">
                 <div className="container">
                     <div className="section-title">
-                        <h2>We Offer Professional Solutions</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <h2>Skills and achievements</h2>
+                        <p>Okuri Sae has been working for 3 years now and has acquired a lot of skills and achievements!</p>
                     </div>
 
                     <div className="row">
@@ -20,10 +20,10 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Data Analysts</a>
+                                        <a>Organizer of Obakeya</a>
                                     </Link>
                                 </h3>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                <p>Representative of VirtualTool Development Circle Obakeya</p>
                             </div>
                         </div>
 
@@ -35,7 +35,7 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Automatic Optimization</a>
+                                        <a>"N Prep School" Ambassador</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -50,7 +50,7 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Security & Surveillance</a>
+                                        <a>Singing Trainer</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -65,7 +65,7 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Healthcare & Manufacturing</a>
+                                        <a>Software Engineering</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -80,7 +80,7 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Software Engineers</a>
+                                        <a>Sound Engineering</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -95,7 +95,7 @@ class Services extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>IT Professionals</a>
+                                        <a>Graphic Design</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
