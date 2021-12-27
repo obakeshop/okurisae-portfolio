@@ -15,7 +15,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Data Analysts</a>
+                                        <a>Meish</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -30,7 +30,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Automatic Optimization</a>
+                                        <a>Off-vocal Finder</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -45,7 +45,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Security & Surveillance</a>
+                                        <a>Apex Fun-rule SLOT</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -60,7 +60,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Healthcare & Manufacturing</a>
+                                        <a>Jimac</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -75,7 +75,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Software Engineers</a>
+                                        <a>MinaBook. LP</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -90,7 +90,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>IT Professionals</a>
+                                        <a>BreakOut Generator</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
@@ -105,7 +105,7 @@ class ServicesContent extends Component {
 
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Data Visualization</a>
+                                        <a>Logo Animations</a>
                                     </Link>
                                 </h3>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
