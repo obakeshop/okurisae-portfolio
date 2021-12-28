@@ -70,7 +70,7 @@ class SongsContent extends Component {
 
                                             <h3>
                                                 <Link href="/blog-details">
-                                                    <a>Making Peace With The Feast Or Famine Of Freelancing</a>
+                                                    <a>{song.name}</a>
                                                 </Link>
                                             </h3>
 
