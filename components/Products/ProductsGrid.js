@@ -2,318 +2,63 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 class Products extends Component {
+
+    products = [
+        { key: 8, name: "Meish", siteUrl: "https://www.meish.me/", imageName: "meish.jpg" },
+        { key: 7, name: "Off-Vocal Finder", siteUrl: "https://okurisae.github.io/off-vocal-finder/", imageName: "ovf.jpg" },
+        { key: 6, name: "Jimac", siteUrl: "https://obakeshop.github.io/Jimac/", imageName: "jimac.jpg" },
+        { key: 5, name: "MinaBook", siteUrl: "https://obakeshop.github.io/c99-minabook/index.html", imageName: "minabook.jpg" },
+        { key: 4, name: "Apex Fun-Rule SLOT", siteUrl: "https://okurisae.github.io/apex-funrule-slot/", imageName: "afs.jpg" },
+        { key: 3, name: "Breakout Maker", siteUrl: "https://openprocessing.org/sketch/1369738", imageName: "breakout_maker.jpg" },
+        { key: 2, name: "Open Proccessing Contents", siteUrl: "https://openprocessing.org/user/184285?view=sketches", imageName: "open_proccessing_content.jpg" },
+        { key: 1, name: "Okuri Sae Portfolio", siteUrl: "http://localhost:3000/", imageName: "okurisae_portfolio.jpg" },
+    ]
+
     render() {
         return (
             <section className="blog-area ptb-110">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/meish.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
+                        {this.products.map(product => {
+                            return (
+                                <div className="col-lg-4 col-md-6" key={product.key}>
+                                    <div className="single-blog-post">
+                                        <div className="entry-thumbnail">
+                                            <a href={product.siteUrl} target="_blank">
+                                                <img src={`/images/products/${product.imageName}`} alt="image" />
+                                            </a>
+                                        </div>
 
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
+                                        <div className="entry-post-content">
+                                            <div className="entry-meta">
+                                                <ul>
+                                                    <li>
+                                                        <Link href="/blog/#">
+                                                            <a>Admin</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>March 10, 2020</li>
+                                                </ul>
+                                            </div>
+
+                                            <h3>
+                                                <Link href="/blog-details">
+                                                    <a>{product.name}</a>
                                                 </Link>
-                                            </li>
-                                            <li>March 10, 2020</li>
-                                        </ul>
+                                            </h3>
+
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                            
+                                            <Link href="/blog-details">
+                                                <a className="learn-more-btn">
+                                                    Read More <i className="flaticon-add"></i>
+                                                </a>
+                                            </Link>
+                                        </div>
                                     </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Meish</a>
-                                        </Link>
-                                    </h3>
-
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/ovf.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 11, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Off-Vocal Finder</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/jimac.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 12, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Jimac</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/afs.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 13, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Apex Fun-Rule SLOT</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/minabook.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>MinaBook.</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/breakout_maker.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Breakout Maker</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/okurisae_portfolio.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>This Portfolio</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
-                        
-                        <div className="col-lg-4 col-md-6">
-                            <div className="single-blog-post">
-                                <div className="entry-thumbnail">
-                                    <Link href="/blog-details">
-                                        <a>
-                                            <img src="/images/products/open_proccessing_content.jpg" alt="image" />
-                                        </a>
-                                    </Link>
-                                </div>
-
-                                <div className="entry-post-content">
-                                    <div className="entry-meta">
-                                        <ul>
-                                            <li>
-                                                <Link href="/blog/#">
-                                                    <a>Admin</a>
-                                                </Link>
-                                            </li>
-                                            <li>March 14, 2020</li>
-                                        </ul>
-                                    </div>
-
-                                    <h3>
-                                        <Link href="/blog-details">
-                                            <a>Open Proccessing Content</a>
-                                        </Link>
-                                    </h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
-                                    
-                                    <Link href="/blog-details">
-                                        <a className="learn-more-btn">
-                                            Read More <i className="flaticon-add"></i>
-                                        </a>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
-
+                            )
+                        })}
                     </div>
                 </div>
  

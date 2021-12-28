@@ -86,39 +86,52 @@ class SongsContent extends Component {
                                 </div>
                             )
                         })}
+                    </div>
 
-                        {/* Pagination */}
-                        <div className="col-lg-12 col-sm-12">
-                            <div className="pagination-area">
-                                <Link href="/blog/#">
-                                    <a className="prev page-numbers">
-                                        <i className="fas fa-angle-double-left"></i>
-                                    </a>
-                                </Link>
+                    
+                    <div className="row">
+                        {this.collabSongs.map(song => {
+                            return (
+                                <div className="col-lg-6 col-md-6" key={song.key}>
+                                    <div className="single-blog-post">
+                                        <div className="entry-thumbnail">
+                                            <Link href="/blog-details">
+                                                <a>
+                                                    <YouTube videoId={song.youtube_id} />
+                                                </a>
+                                            </Link>
+                                        </div>
 
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">1</a>
-                                </Link>
+                                        <div className="entry-post-content">
+                                            <div className="entry-meta">
+                                                <ul>
+                                                    <li>
+                                                        <Link href="/blog/#">
+                                                            <a>Admin</a>
+                                                        </Link>
+                                                    </li>
+                                                    <li>March 10, 2020</li>
+                                                </ul>
+                                            </div>
 
-                                <Link href="/blog/#">
-                                    <a className="page-numbers current">2</a>
-                                </Link>
+                                            <h3>
+                                                <Link href="/blog-details">
+                                                    <a>{song.name}</a>
+                                                </Link>
+                                            </h3>
 
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">3</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="page-numbers">4</a>
-                                </Link>
-
-                                <Link href="/blog/#">
-                                    <a className="next page-numbers">
-                                        <i className="fas fa-angle-double-right"></i>
-                                    </a>
-                                </Link>
-                            </div>
-                        </div>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod...</p>
+                                            
+                                            <Link href="/blog-details">
+                                                <a className="learn-more-btn">
+                                                    Read More <i className="flaticon-add"></i>
+                                                </a>
+                                            </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            )
+                        })}
                     </div>
                 </div>
  

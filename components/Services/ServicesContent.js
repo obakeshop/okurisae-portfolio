@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Link from 'next/link';
 
 class ServicesContent extends Component {
+
+
     render() {
         return (
             <section className="services-area bg-f2f6f9 ptb-110">
