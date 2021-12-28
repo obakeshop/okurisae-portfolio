@@ -40,6 +40,10 @@ class SongsContent extends Component {
     ]
 
     render() {
+        const opts = {
+            height: '100%',
+            width: '100%',
+          };
         return (
             <section className="blog-area ptb-110">
                 <div className="container text-center">
@@ -49,11 +53,7 @@ class SongsContent extends Component {
                                 <div className="col-lg-6 col-md-6" key={song.key}>
                                     <div className="single-blog-post">
                                         <div className="entry-thumbnail">
-                                            <Link href="/blog-details">
-                                                <a>
-                                                    <YouTube videoId={song.youtube_id} />
-                                                </a>
-                                            </Link>
+                                            <YouTube videoId={song.youtube_id} opts={opts}/>
                                         </div>
 
                                         <div className="entry-post-content">
@@ -95,11 +95,7 @@ class SongsContent extends Component {
                                 <div className="col-lg-6 col-md-6" key={song.key}>
                                     <div className="single-blog-post">
                                         <div className="entry-thumbnail">
-                                            <Link href="/blog-details">
-                                                <a>
-                                                    <YouTube videoId={song.youtube_id} />
-                                                </a>
-                                            </Link>
+                                            <YouTube videoId={song.youtube_id} opts={opts}/>
                                         </div>
 
                                         <div className="entry-post-content">
