@@ -77,13 +77,13 @@ class Navbar extends Component {
                                     <ul className="navbar-nav">
                                         
                                         <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
+                                            <Link href="/" activeClassName="active">
                                                 <a className="nav-link">Home</a>
                                             </Link>
                                         </li>
                                         
                                         <li className="nav-item">
-                                            <Link href="/contact" activeClassName="active">
+                                            <Link href="/products" activeClassName="active">
                                                 <a className="nav-link">Products</a>
                                             </Link>
                                         </li>
@@ -93,35 +93,13 @@ class Navbar extends Component {
                                                 <a className="nav-link">Arts</a>
                                             </Link>
                                         </li>
+
                                         
                                         <li className="nav-item">
-                                            <Link href="#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                    Songs <i className="fas fa-chevron-down"></i>
-                                                </a>
+                                            <Link href="/songs" activeClassName="active">
+                                                <a className="nav-link">Songs</a>
                                             </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="https://note.com/okurisae/" activeClassName="active">
-                                                        <a className="nav-link">Cover Songs</a>
-                                                    </Link>
-                                                </li>
-
-                                                <li className="nav-item">
-                                                    <Link href="https://qiita.com/OkuriSae" activeClassName="active">
-                                                        <a className="nav-link">Collaborated Songs</a>
-                                                    </Link>
-                                                </li>
-                                                
-                                                <li className="nav-item">
-                                                    <Link href="https://saeokuri.hatenablog.com/" activeClassName="active">
-                                                        <a className="nav-link">Mix Supported</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
                                         </li>
-
 
                                         <li className="nav-item">
                                             <Link href="#">
@@ -132,19 +110,19 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="https://note.com/okurisae/" activeClassName="active">
+                                                    <Link href="https://note.com/okurisae/" target="_blank" activeClassName="active">
                                                         <a className="nav-link">Vtuber note</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="https://qiita.com/OkuriSae" activeClassName="active">
-                                                        <a className="nav-link">Enginnering Blog [Qiita]</a>
+                                                    <Link href="https://qiita.com/OkuriSae" target="_blank" activeClassName="active">
+                                                        <a className="nav-link">Development Blog</a>
                                                     </Link>
                                                 </li>
                                                 
                                                 <li className="nav-item">
-                                                    <Link href="https://saeokuri.hatenablog.com/" activeClassName="active">
+                                                    <Link href="https://saeokuri.hatenablog.com/" target="_blank" activeClassName="active">
                                                         <a className="nav-link">Sound Enginnering Blog</a>
                                                     </Link>
                                                 </li>
