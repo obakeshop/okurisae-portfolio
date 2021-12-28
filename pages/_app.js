@@ -12,8 +12,12 @@ import Head from 'next/head';
 import React from 'react';
 import Loader from '../components/Shared/Loader'; 
 import GoTop from '../components/Shared/GoTop';
+import Modal from 'react-modal';
+
+Modal.setAppElement('#__next')
 
 export default class MyApp extends App {
+
     // Preloader
     state = {
         loading: true
