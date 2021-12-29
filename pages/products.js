@@ -15,7 +15,7 @@ class Products extends Component {
                     homePageUrl="/" 
                     homePageText="Home" 
                     activePageText="Products" 
-                    bgImgClass="item-bg2" 
+                    bgImgClass="item-bg3" 
                 />  
 
                 <ProductsGrid />

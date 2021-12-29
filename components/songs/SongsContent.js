@@ -41,16 +41,21 @@ class SongsContent extends Component {
 
     render() {
         const opts = {
-            height: '100%',
+            'aspect-ratio': 16 / 9,
             width: '100%',
           };
         return (
             <section className="blog-area ptb-110">
                 <div className="container text-center">
+
+                    <div className="my-5">
+                        <h1>Cover Songs</h1>
+                    </div>
+
                     <div className="row">
                         {this.soloSongs.map(song => {
                             return (
-                                <div className="col-lg-6 col-md-6" key={song.key}>
+                                <div className="col-lg-6 col-md-12" key={song.key}>
                                     <div className="single-blog-post">
                                         <div className="entry-thumbnail">
                                             <YouTube videoId={song.youtube_id} opts={opts}/>
@@ -88,11 +93,14 @@ class SongsContent extends Component {
                         })}
                     </div>
 
+                    <div className="my-5">
+                        <h1>Collaboration Songs</h1>
+                    </div>
                     
                     <div className="row">
                         {this.collabSongs.map(song => {
                             return (
-                                <div className="col-lg-6 col-md-6" key={song.key}>
+                                <div className="col-lg-6 col-md-12" key={song.key}>
                                     <div className="single-blog-post">
                                         <div className="entry-thumbnail">
                                             <YouTube videoId={song.youtube_id} opts={opts}/>
