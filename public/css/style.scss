@@ -3513,6 +3513,11 @@ Page Title Area CSS
             image: url(/images/page-title-bg3.jpg);
         }
     }
+    &.item-bg4 {
+        background: {
+            image: url(/images/page-title-bg4.jpg);
+        }
+    }
 }
 .page-title-content {
     h2 {

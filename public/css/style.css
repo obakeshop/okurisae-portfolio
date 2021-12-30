@@ -3776,6 +3776,10 @@ Page Title Area CSS
   background-image: url(/images/page-title-bg3.jpg);
 }
 
+.page-title-area.item-bg4 {
+  background-image: url(/images/page-title-bg4.jpg);
+}
+
 .page-title-content h2 {
   margin-bottom: 0;
   color: #ffffff;
