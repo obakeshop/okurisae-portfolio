@@ -7,20 +7,25 @@ class About extends Component {
             <section className="about-area ptb-110">
                 <div className="container">
                     <div className="row align-items-center">
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-7 col-md-12">
                             <div className="about-image">
-                                <img src="/images/about/tools1.png" alt="image" />
-                                <img src="/images/about/tools2.png" alt="image" />
+                                <img className="w-100" src="/images/about/about.png" alt="image" />
+                                <img className="w-50" src="/images/about/logo.png" alt="image" />
                             </div>
                         </div>
 
-                        <div className="col-lg-6 col-md-12">
+                        <div className="col-lg-5 col-md-12">
                             <div className="about-content">
-                                <h2>What products are there?</h2>
-                                <p>There is also a portfolio service for keeping detailed character profiles and design materials, a search service for finding karaoke recordings, and a web tool for displaying subtitles on the distribution screen.</p>
+                                <h2>What is OkuriSae like?</h2>
+                                <p>
+                                    気ままにネット上を漂っているおばけたちの集合体だよ。<br></br>
+                                    おばけらしくハロウィンが誕生日（結成日）で、みんなでワイワイお祭りごとが大好き！
+                                    人間の霊も動物の霊も混ざっていていろんな知識やスキルを持ってるよ、見た目だって思いのまま。<br></br>
+                                    おばけとしてネット上を震撼させるべく、いろんな大きい企画やサービス、マルチジェンダーな歌ってみたとかで活動中！
+                                </p>
 
-                                <Link href="/tools">
-                                    <a className="btn btn-primary">Discover More</a>
+                                <Link href="/about">
+                                    <a className="btn btn-primary">もっと詳しく</a>
                                 </Link>
                             </div>
                         </div>

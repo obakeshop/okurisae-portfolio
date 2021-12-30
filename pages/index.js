@@ -3,8 +3,8 @@ import Navbar from '../components/Layouts/Navbar';
 import MainBanner from '../components/HomeOne/MainBanner';
 import About from '../components/HomeOne/About';
 import Services from '../components/HomeOne/Services';
-import Webinar from '../components/HomeOne/Webinar';
-import PartnerContent from '../components/Common/PartnerContent';
+import SampleSong from '../components/HomeOne/SampleSong';
+import Products from '../components/HomeOne/Products';
 import FeedbackSlider from '../components/Common/FeedbackSlider';
 import PricingCard from '../components/Common/PricingCard';
 import BlogPost from '../components/Common/BlogPost';
@@ -18,12 +18,9 @@ class Index extends Component {
                 <Navbar />
                 <MainBanner />
                 <About />
+                <Products />
+                <SampleSong />
                 <Services />
-                <Webinar />
-                <PartnerContent />
-                <FeedbackSlider />
-                <PricingCard />
-                <BlogPost />
                 <FreeTrialForm />
                 <Footer />
             </>

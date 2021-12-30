@@ -101,32 +101,11 @@ class Navbar extends Component {
                                         </li>
                                         
                                         <li className="nav-item">
-                                            <Link href="/songs">
-                                                <a className="nav-link">
-                                                    Songs <i className="fas fa-chevron-down"></i>
-                                                </a>
+                                            <Link href="/songs" activeClassName="active">
+                                                <a className="nav-link">Songs</a>
                                             </Link>
-
-                                            <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/songs#what_is_fake_voice_song" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">What is Fake-voice Song?</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/songs#cover_songs" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">Cover Songs</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/songs#collaboration_songs" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">Collaboration Songs</a>
-                                                    </Link>
-                                                </li>
-                                            </ul>
                                         </li>
-
-
+                                        
                                         <li className="nav-item">
                                             <Link href="#">
                                                 <a className="nav-link" onClick={e => e.preventDefault()}>

@@ -1487,7 +1487,7 @@ About Area CSS
 
 .about-image {
   position: relative;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .about-image img:nth-child(2) {
@@ -2473,24 +2473,26 @@ Partner Area CSS
 }
 
 .partner-item {
-  -ms-flex: 0 0 20%;
+  -ms-flex: 0 0 25%;
   -webkit-box-flex: 0;
-          flex: 0 0 20%;
-  max-width: 20%;
+          flex: 0 0 25%;
+  max-width: 25%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 .partner-item a {
   display: block;
-  padding: 25px;
+  padding: 0px;
   background: #ffffff;
   text-align: center;
   position: relative;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .partner-item a::before, .partner-item a::after {
+  z-index: 1;
   content: '';
   position: absolute;
   width: 0;
@@ -2528,12 +2530,8 @@ Partner Area CSS
 }
 
 .partner-item a:hover img {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
-}
-
-.partner-item:nth-child(6) {
-  margin-left: 10%;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .partner-section {
@@ -2644,15 +2642,15 @@ Feedback Area CSS
 }
 
 .client-image.bg1 {
-  background-image: url(/images/clients/client1.jpg);
+  background-image: url(/images/arts/details/22.jpg);
 }
 
 .client-image.bg2 {
-  background-image: url(/images/clients/client2.jpg);
+  background-image: url(/images/arts/details/20.jpg);
 }
 
 .client-image.bg3 {
-  background-image: url(/images/clients/client3.jpg);
+  background-image: url(/images/arts/details/19.jpg);
 }
 
 .feedback-slides.owl-theme .owl-stage .owl-item::before {
@@ -2901,6 +2899,58 @@ Pricing Area CSS
 }
 
 .pricing-tab .tabs li:nth-child(2) span::before {
+  border-radius: 0 5px 5px 0;
+}
+
+------
+
+
+.songs-tab .tabs {
+  padding-left: 0;
+  margin-bottom: 45px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.songs-tab .tabs li {
+  display: inline-block;
+}
+
+.songs-tab .tabs li span {
+  background-color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px 11px;
+  margin-left: -2px;
+  margin-right: -2px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.songs-tab .tabs li span:hover {
+  color: #ffffff;
+  background-color: #212529;
+}
+
+.songs-tab .tabs li.current span {
+  color: #ffffff;
+  background-color: #212529;
+}
+
+.songs-tab .tabs li:nth-child(1) span {
+  border-radius: 5px 0 0 5px;
+}
+
+.songs-tab .tabs li:nth-child(1) span::before {
+  border-radius: 5px 0 0 5px;
+}
+
+.songs-tab .tabs li:nth-child(2) span {
+  border-radius: 0 5px 5px 0;
+}
+
+.songs-tab .tabs li:nth-child(2) span::before {
   border-radius: 0 5px 5px 0;
 }
 
@@ -6476,7 +6526,7 @@ Pricing Area CSS
 
 .pricing-tab .tabs li {
   display: inline-block;
-  background-color: #ffffff;
+  background-color: #f2f6f9;
   padding: 10px 30px 11px;
   cursor: pointer;
   margin-left: -2px;
@@ -6487,12 +6537,12 @@ Pricing Area CSS
 }
 
 .pricing-tab .tabs li:hover {
-  color: #ffffff;
+  color: #f2f6f9;
   background-color: #212529;
 }
 
 .pricing-tab .tabs li.current {
-  color: #ffffff;
+  color: #f2f6f9;
   background-color: #212529;
 }
 

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class WhatIsFakeVoiceSong extends Component {
+class WhatIsAltVoice extends Component {
     render() {
         return (
             <section className="about-area bg-f2f6f9 ptb-110 in-page-ancher mb-5" id="what_is_fake_voice_song">
@@ -13,14 +13,14 @@ class WhatIsFakeVoiceSong extends Component {
 
                         <div className="col-lg-6 col-md-12">                            
                             <div className="mb-3">
-                                <h1>What is Fake-voice Song?</h1>
+                                <h1>What is AltVoice?</h1>
                             </div>
                             <p>
-                                私が歌っている女性ボーカル楽曲には、全てボイスチェンジャーが使われてます！（男性Voは生声）<br></br>
-                                歌枠やライブでも歌唱できるようリアルタイムで音声変換が行われ、実際は１オクターブ下の音程で発声しています。
+                                小栗さえが歌っている女性ボーカル楽曲には、全てボイスチェンジャーが使われてます！<br></br>
+                                地声の代替となる声という意味で <b>Altanative-voice（AltVoice）</b> と呼んでいて、歌枠やライブでも歌唱できるようリアルタイムで音声変換が行われ、実際は１オクターブ下の音程で発声しています。<br></br>
                                 独自に編み出した機材設定と歌唱方法によって、声帯を鍛えたり痛めることなく長時間の歌唱が可能になっています。
                             </p>
-                            <a className="btn btn-primary" href="https://saeokuri.hatenablog.com/" target="_blank">ボイスチェンジャーを使った歌唱方法や機材設定について学ぶ</a>
+                            <a className="btn btn-primary" href="https://saeokuri.hatenablog.com/" target="_blank">AltVoice の歌唱方法や機材設定について学ぶ</a>
                         </div>
                     </div>
                 </div>
@@ -55,4 +55,4 @@ class WhatIsFakeVoiceSong extends Component {
     }
 }
 
-export default WhatIsFakeVoiceSong;
+export default WhatIsAltVoice;

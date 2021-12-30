@@ -5,7 +5,7 @@ const ModalVideo = dynamic(() => import('react-modal-video'), {
     ssr: false
 });
 
-class Webinar extends Component {
+class SampleSong extends Component {
 
     state = {
         isOpen: false,
@@ -21,11 +21,15 @@ class Webinar extends Component {
                     <div className="row m-0">
                         <div className="col-lg-6 p-0">
                             <div className="webinar-content">
-                                <h2>Let's listen to a state-of-the-art fake voicing.</h2>
-                                <p>Japan's Fake Voice technology is so advanced that it can convert a low male voice into a natural female voice an octave higher. Try listening to it first.</p>
+                                <h2>音楽は Gender Free の時代に</h2>
+                                <h6>2021.12.23 - PARTY☆NIGHT (cover) / デ・ジ・キャラット</h6>
+                                <p>
+                                    ボイスチェンジャーを使った2つ目の声を AltVoice と呼び、なんとこの曲は収録時に1オクターブ下の音程で歌われています。<br></br>
+                                    歌ってみたやカラオケがジェンダーフリーなコンテンツになる時代を待ってます！
+                                </p>
 
-                                <Link href="#">
-                                    <a className="btn btn-primary">Watch More</a>
+                                <Link href="/songs">
+                                    <a className="btn btn-primary">もっと詳しく</a>
                                 </Link>
                             </div>
                         </div>
@@ -56,4 +60,4 @@ class Webinar extends Component {
     }
 }
 
-export default Webinar;
+export default SampleSong;

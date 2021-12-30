@@ -10,18 +10,19 @@ class MainBanner extends Component {
                         <div className="container-fluid">
                             <div className="main-banner-content">
                                 <h1>Okuri Sae's Portfolio</h1>
-                                <p>She is a Vtuber and works mainly on the Internet.
-Her main activities include developing distribution tools and web services for Vtubers.<br></br>
-Also, she knows a lot about voice changer technology and singing, and has posted a lot of feminine singing videos that don't seem to be fake voices.</p>
+                                <p>
+                                    わりと何でもできるハイブリッドなばーちゃるおばけ。
+                                    Vtuberや配信者用のWebツール開発をメインに、のんびりとばーちゃる界を漂っています。<br></br>
+                                    プログラミング、歌ってみた、音響技術、企画運営、デザイン、ゲーム配信などなど多方面で活動中！
+                                    ボイスチェンジャーを使った歌ってみたもお上手なので聴いてみてね <i class="fas fa-headphones-alt"></i>
+                                </p>
 
                                 <div className="btn-box">
                                     <Link href="https://www.youtube.com/channel/UCj9IZnU2bKqGqABhQUU6F8g" target="_blank">
-                                        <a className="btn btn-primary">Subscribe YouTube</a>
+                                        <a className="btn btn-primary">応援する</a>
                                     </Link>
 
-                                    <Link href="https://twitter.com/OkuriSae">
-                                        <a className="optional-btn">See to Twitter</a>
-                                    </Link>
+                                    <a className="optional-btn" href="https://twitter.com/OkuriSae" target="_blank"><i class="fab fa-twitter"> View Twitter</i></a>
                                 </div>
                             </div>
                         </div>
@@ -38,11 +39,11 @@ Also, she knows a lot about voice changer technology and singing, and has posted
                                     </div>
 
                                     <h3>
-                                        <Link href="/service-details">
-                                            <a>Fake-voice Songs</a>
+                                        <Link href="/songs">
+                                            <a>AltVoice Songs</a>
                                         </Link>
                                     </h3>
-                                    <p>Listen to a fake voice video of a feminine anime voice that you won't believe was sung by a man.</p>
+                                    <p>ボイスチェンジャーを使ったマルチジェンダーな歌唱動画を投稿しています。 目指すは<b>『歌唱のテクニックとしてボイスチェンジャーが受け入れられる』</b>世界！</p>
                                 </div>
                             </div>
 
@@ -53,11 +54,11 @@ Also, she knows a lot about voice changer technology and singing, and has posted
                                     </div>
 
                                     <h3>
-                                        <Link href="/service-details">
+                                        <Link href="/products">
                                             <a>Virtual tools</a>
                                         </Link>
                                     </h3>
-                                    <p>Try to use web tools that can be used by Vtubers, live broadcasters, and singers.</p>
+                                    <p>Vtuberや配信者向けのWebサービスやツールを開発しています。 プロフィールサービスや音源検索サイトなど、Vの活動が爆速で豪華になること間違いなし！</p>
                                 </div>
                             </div>
 
@@ -68,11 +69,11 @@ Also, she knows a lot about voice changer technology and singing, and has posted
                                     </div>
 
                                     <h3>
-                                        <Link href="/service-details">
-                                            <a>Technology Blog</a>
+                                        <Link href="/">
+                                            <a>Tech Blog</a>
                                         </Link>
                                     </h3>
-                                    <p>Read technical blogs about web development and voice changers for Vtubers.</p>
+                                    <p>Vtuber向けの記事やプログラミングに関するノウハウ、音響系の技術記事などを書いています。 プログラミングや音響について学びたい方を応援します！</p>
                                 </div>
                             </div>
                         </div>

@@ -11,11 +11,12 @@ class PartnerContent extends Component {
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
-                    <div className="customers-partner-list">
+                    <div className="customers-partner-list justify-content-center">
+
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner1.png" alt="image" />
+                                    <img src="/images/partner/meish.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>
@@ -23,7 +24,7 @@ class PartnerContent extends Component {
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner2.png" alt="image" />
+                                    <img src="/images/partner/jimac.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>
@@ -31,7 +32,7 @@ class PartnerContent extends Component {
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner3.png" alt="image" />
+                                    <img src="/images/partner/ovf.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>
@@ -39,7 +40,7 @@ class PartnerContent extends Component {
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner4.png" alt="image" />
+                                    <img src="/images/partner/minabook.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>
@@ -47,7 +48,7 @@ class PartnerContent extends Component {
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner5.png" alt="image" />
+                                    <img src="/images/partner/portfolio.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>
@@ -55,31 +56,7 @@ class PartnerContent extends Component {
                         <div className="partner-item">
                             <Link href="/partner">
                                 <a target="_blank">
-                                    <img src="/images/partner/partner6.png" alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a target="_blank">
-                                    <img src="/images/partner/partner1.png" alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a target="_blank">
-                                    <img src="/images/partner/partner2.png" alt="image" />
-                                </a>
-                            </Link>
-                        </div>
-
-                        <div className="partner-item">
-                            <Link href="/partner">
-                                <a target="_blank">
-                                    <img src="/images/partner/partner3.png" alt="image" />
+                                    <img src="/images/partner/afs.jpg" alt="image" />
                                 </a>
                             </Link>
                         </div>

@@ -45,10 +45,10 @@ class About extends Component {
                                                     <ul>
                                                         <li><span>活動内容:</span> ツール開発、歌ってみた、企画運営</li>
                                                         <li><span>活動開始日:</span> 2019年1月1日</li>
-                                                        <li><span>誕生日:</span> 10月31日 (2歳)</li>
+                                                        <li><span>誕生日:</span> 10月31日 （2歳）</li>
                                                         <li><span>性別:</span> なし（霊体）</li>
                                                         <li><span>身長/体重:</span> 142cm/42kg</li>
-                                                        <li><span>所属:</span> 無所属 [個人]</li>
+                                                        <li><span>所属:</span> 無所属 / 個人</li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -60,8 +60,17 @@ class About extends Component {
                             <div className="projects-details-desc">
 
                                  <blockquote className="wp-block-quote mt-5">
-                                    <p className="mb-0">わりと何でもできるハイブリッドなばーちゃるおばけ</p>
+                                    <p>わりと何でもできるハイブリッドなばーちゃるおばけ</p>
                                 </blockquote>
+
+                                <h3 className="mt-5">What is OkuriSae like?</h3>
+
+                                <p>
+                                    気ままにネット上を漂っているおばけたちの集合体だよ。<br></br>
+                                    おばけらしくハロウィンが誕生日（結成日）で、みんなでワイワイお祭りごとが大好き！<br></br>
+                                    人間の霊も動物の霊も混ざっていていろんな知識やスキルを持ってるよ、見た目だって思いのまま。<br></br>
+                                    おばけとしてネット上を震撼させるべく、いろんな大きい企画やサービス、マルチジェンダーな歌ってみたとかで活動中！
+                                </p>
 
                                 <div className='text-center my-3'>
                                     <img src="/images/logo.png" width="500px" alt="image" />
@@ -87,24 +96,26 @@ class About extends Component {
                                 
                                 <div className="row mt-3">
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://twitter.com/OkuriSae/status/1454720076276375554?s=20" target="_blank">
                                                 <img src="/images/about/nprep.jpg" alt="image" />
                                             </a>
+                                            <p>N予備校 公式アンバサダーに就任</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://twitter.com/OkuriSae/status/1451307827759222787?s=20" target="_blank">
                                                 <img src="/images/about/eng_discord.jpg" alt="image" />
                                             </a>
+                                            <p>開発者交流Discord</p>
                                         </div>
                                     </div>
                                 </div>
 
                                 <h3 className="mt-5">ボイチェンで音楽のパラダイムシフトを起こしたい！</h3>
                                 <p>
-                                    歌を歌うことが大好きで、ボイスチェンジャーを使った女性ボーカルソングを不定期で投稿しています。<br></br>
+                                    歌を歌うことが大好きで、ボイスチェンジャーを使ったジェンダーフリーなボーカルソングを不定期で投稿しています。<br></br>
                                     目指すは<b>『歌唱のテクニックとしてボイスチェンジャーが受け入れられる』</b>世界！ 初音ミクが起こしたようなパラダイムシフトが起きてほしいです。<br></br>
                                     歌枠はまだまだだけど、Mixした楽曲ならボイスチェンジャー特有の違和感を大分消せてきてると思うので、ぜひ聴いてみてほしいです！
                                 </p>
@@ -122,15 +133,17 @@ class About extends Component {
 
                                 <div className="row mt-3">
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://youtu.be/8Jht-DqTNn4" target="_blank">
                                                 <img src="/images/about/utawaku_thumbnail_20211124.jpg" alt="image" />
                                             </a>
+                                            <p>デザインサムネイル</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <img src="/images/about/voice_changer_ss.jpg" alt="image" />
+                                            <p>DTM/MIX</p>
                                         </div>
                                     </div>
                                 </div>
@@ -144,24 +157,27 @@ class About extends Component {
 
                                 <div className="row mt-3">
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
-                                            <a href="https://twitter.com/OkuriSae/status/1372514523467288581?s=20" target="_blank">
-                                                <img src="/images/about/babi20chorus.jpg" alt="image" />
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://twitter.com/kurumi_mokoko/status/1409089120719314944?s=20" target="_blank">
                                                 <img src="/images/about/bomb64.jpg" alt="image" />
                                             </a>
+                                            <p>スパボンRオンライン64人コラボ</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://obakeshop.github.io/c99-minabook/index.html" target="_blank">
                                                 <img src="/images/about/minabook.jpg" alt="image" />
                                             </a>
+                                            <p>Vtuber合同誌 MinaBook.</p>
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-4 col-md-6 col-sm-6">
+                                        <div className="projects-details-image text-center">
+                                            <a href="https://twitter.com/OkuriSae/status/1372514523467288581?s=20" target="_blank">
+                                                <img src="/images/about/babi20chorus.jpg" alt="image" />
+                                            </a>
+                                            <p>ボイチェン+両声類20人の『愛言葉Ⅲ』合唱企画</p>
                                         </div>
                                     </div>
                                 </div>
@@ -175,17 +191,19 @@ class About extends Component {
 
                                 <div className="row mt-3">
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
+                                        <div className="projects-details-image text-center">
                                             <a href="https://twitter.com/OkuriSae/status/1171989724254236673?s=20" target="_blank">
                                                 <img src="/images/about/logos.jpg" alt="image" />
                                             </a>
+                                            <p>ロゴ配布企画で制作したロゴデザイン</p>
                                         </div>
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="projects-details-image">
-                                            <a href="https://www.youtube.com/watch?v=CjKnks3wGos" target="_blank">
+                                        <div className="projects-details-image text-center">
+                                            <a href="https://soundcloud.com/sae-okuri" target="_blank">
                                                 <img src="/images/about/saesmusic.jpg" alt="image" />
                                             </a>
+                                            <p>自作BGM集</p>
                                         </div>
                                     </div>
                                 </div>

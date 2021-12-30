@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import WhatIsFakeVoiceSong from '../components/Songs/WhatIsFakeVoiceSong';
-import CoverSongsContent from '../components/songs/CoverSongsContent';
-import CollaborationSongsContent from '../components/songs/CollaborationSongsContent';
+import WhatIsAltVoice from '../components/Songs/WhatIsAltVoice';
+import SongsContent from '../components/songs/SongsContent';
 import Footer from '../components/Layouts/Footer';
 
 class Songs extends Component {
@@ -20,11 +19,9 @@ class Songs extends Component {
                     bgImgClass="item-bg2" 
                 />  
                 
-                <WhatIsFakeVoiceSong />
+                <WhatIsAltVoice />
 
-                <CoverSongsContent />
-
-                <CollaborationSongsContent />
+                <SongsContent />
                 
                 <Footer/>
             </>

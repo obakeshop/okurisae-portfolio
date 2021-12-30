@@ -46,7 +46,7 @@ class FeedbackSlider extends Component {
 
                                     <div className="client-info">
                                         <div className="client-pic">
-                                            <img src="/images/clients/client1.jpg" alt="image" />
+                                            <img src="/images/arts/thumbnails/1.jpg" alt="image" />
                                         </div>
 
                                         <h3>Filip Luis</h3>
@@ -57,7 +57,7 @@ class FeedbackSlider extends Component {
                             
                             <div className="col-lg-6 col-md-12 p-0">
                                 <div className="client-image bg1">
-                                    <img src="/images/clients/client1.jpg" alt="image" />
+                                    <img src="/images/arts/thumbnails/1.jpg" alt="image" />
                                 </div>
                             </div>
                         </div>
@@ -69,7 +69,7 @@ class FeedbackSlider extends Component {
 
                                     <div className="client-info">
                                         <div className="client-pic">
-                                            <img src="/images/clients/client2.jpg" alt="image" />
+                                            <img src="/arts/thumbnails/1.jpg" alt="image" />
                                         </div>
 
                                         <h3>Sarah Taylor</h3>
@@ -80,7 +80,7 @@ class FeedbackSlider extends Component {
                             
                             <div className="col-lg-6 col-md-12 p-0">
                                 <div className="client-image bg2">
-                                    <img src="/images/clients/client2.jpg" alt="image" />
+                                    <img src="/images/arts/thumbnails/1.jpg" alt="image" />
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ class FeedbackSlider extends Component {
 
                                     <div className="client-info">
                                         <div className="client-pic">
-                                            <img src="/images/clients/client3.jpg" alt="image" />
+                                            <img src="/images/arts/thumbnails/1.jpg" alt="image" />
                                         </div>
 
                                         <h3>Sarah Taylor</h3>
@@ -103,7 +103,7 @@ class FeedbackSlider extends Component {
                             
                             <div className="col-lg-6 col-md-12 p-0">
                                 <div className="client-image bg3">
-                                    <img src="/images/clients/client3.jpg" alt="image" />
+                                    <img src="/images/arts/thumbnails/1.jpg" alt="image" />
                                 </div>
                             </div>
                         </div>
