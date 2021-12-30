@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
-import ArtsContent from '../components/ArtsContent/ArtsContent';
+import GalleryContent from '../components/GalleryContent/GalleryContent';
 import FreeTrialForm from '../components/Common/FreeTrialForm';
 import Footer from '../components/Layouts/Footer';
 
-class Arts extends Component {
+class Gallery extends Component {
     render() {
         return (
             <>
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="Arts" 
+                    pageTitle="Gallery" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="Arts" 
+                    activePageText="Gallery" 
                     bgImgClass="item-bg1" 
                 />  
 
-                <ArtsContent />
+                <GalleryContent />
 
                 <FreeTrialForm />
                 
@@ -29,4 +29,4 @@ class Arts extends Component {
     }
 }
 
-export default Arts;
+export default Gallery;

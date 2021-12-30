@@ -11,11 +11,11 @@ class Error extends Component {
                             <div className="error-content">
                                 <img src="/images/404.png" alt="error" />
             
-                                <h3>Page Not Found</h3>
-                                <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+                                <h3>ページが見つかりません</h3>
+                                <p>お探しのページは存在しないか、おばけによって隠された気配がします。</p>
 
                                 <Link href="/">
-                                    <a className="btn btn-primary">Go To Home</a>
+                                    <a className="btn btn-primary">TOPへもどる</a>
                                 </Link>
                             </div>
                         </div>

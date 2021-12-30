@@ -14,12 +14,12 @@ class About extends Component {
     render() {
         return (
             <>
-                <NavbarTwo />
+                <Navbar />
                 <PageBanner 
-                    pageTitle="About Us" 
+                    pageTitle="About me" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="About Us" 
+                    activePageText="About me" 
                     bgImgClass="item-bg1" 
                 />  
                 <AboutContact />

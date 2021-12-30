@@ -200,11 +200,6 @@ textarea.form-control {
 .learn-more-btn i {
   margin-left: 2px;
   position: relative;
-  top: -0.6px;
-}
-
-.learn-more-btn i::before {
-  font-size: 11px;
 }
 
 .learn-more-btn::before {
@@ -7988,3 +7983,8 @@ Checkout Area CSS
   font-size: 14px;
 }
 /*# sourceMappingURL=style.css.map */
+
+.in-page-ancher {
+  margin-top:-100px;
+  padding-top:100px;
+}

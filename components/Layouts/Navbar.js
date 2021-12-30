@@ -89,17 +89,37 @@ class Navbar extends Component {
                                         </li>
 
                                         <li className="nav-item">
-                                            <Link href="/arts" activeClassName="active">
-                                                <a className="nav-link">Arts</a>
+                                            <Link href="/gallery" activeClassName="active">
+                                                <a className="nav-link">Gallery</a>
                                             </Link>
                                         </li>
-
                                         
                                         <li className="nav-item">
-                                            <Link href="/songs" activeClassName="active">
-                                                <a className="nav-link">Songs</a>
+                                            <Link href="/songs">
+                                                <a className="nav-link">
+                                                    Songs <i className="fas fa-chevron-down"></i>
+                                                </a>
                                             </Link>
+
+                                            <ul className="dropdown-menu">
+                                                <li className="nav-item">
+                                                    <Link href="/songs#what_is_fake_voice_song" target="_blank" activeClassName="active">
+                                                        <a className="nav-link">What is Fake-voice Song?</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="/songs#cover_songs" target="_blank" activeClassName="active">
+                                                        <a className="nav-link">Cover Songs</a>
+                                                    </Link>
+                                                </li>
+                                                <li className="nav-item">
+                                                    <Link href="/songs#collaboration_songs" target="_blank" activeClassName="active">
+                                                        <a className="nav-link">Collaboration Songs</a>
+                                                    </Link>
+                                                </li>
+                                            </ul>
                                         </li>
+
 
                                         <li className="nav-item">
                                             <Link href="#">
@@ -110,21 +130,15 @@ class Navbar extends Component {
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="https://note.com/okurisae/" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">Vtuber note</a>
-                                                    </Link>
+                                                    <a className="nav-link" href="https://note.com/okurisae/" target="_blank">Vtuber note</a>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="https://qiita.com/OkuriSae" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">Development Blog</a>
-                                                    </Link>
+                                                    <a className="nav-link" href="https://qiita.com/OkuriSae" target="_blank">Development Blog</a>
                                                 </li>
                                                 
                                                 <li className="nav-item">
-                                                    <Link href="https://saeokuri.hatenablog.com/" target="_blank" activeClassName="active">
-                                                        <a className="nav-link">Sound Enginnering Blog</a>
-                                                    </Link>
+                                                    <a className="nav-link" href="https://saeokuri.hatenablog.com/" target="_blank">Sound Enginnering Blog</a>
                                                 </li>
                                             </ul>
                                         </li>

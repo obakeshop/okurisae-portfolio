@@ -9,7 +9,7 @@ class MyDocument extends Document {
 
     render() {
         return (
-            <Html lang="zxx">
+            <Html lang="ja">
                 <Head>
                     <link
                         href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"
