@@ -11,7 +11,7 @@ const Seo = ({
   const defaultTitle = 'demo'
   const defaultDescription = 'demo'
 
-  const title = pageTitle ? `${pageTitle} | ${defaultTitle}` : defaultTitle
+  const title = pageTitle ? pageTitle : defaultTitle
   const description = pageDescription ? pageDescription : defaultDescription
   const url = pagePath
   const imgUrl = pageImg
