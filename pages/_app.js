@@ -40,8 +40,8 @@ export default class MyApp extends App {
                 <Seo
                     pageTitle={'Okuri Sae Vtuber Portfolio | 小栗さえ プロフィールサイト'}
                     pageDescription={'小栗さえ プロフィールサイト'}
-                    pagePath={'https://'}
-                    pageImg={'https://'}
+                    pagePath={'https://okurisae.com'}
+                    pageImg={'https://www.okurisae.com/images/ogp.jpg'}
                 />
 
                 <Component {...pageProps} />

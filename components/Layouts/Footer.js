@@ -48,29 +48,19 @@ class Footer extends Component {
 
                                 <ul className="footer-services-list">
                                     <li>
-                                        <Link href="/service-details">
-                                            <a>Meish</a>
-                                        </Link>
+                                        <a href="https://www.meish.me/" target="_blank">Meish</a>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
-                                            <a>Jimac</a>
-                                        </Link>
+                                        <a href="https://obakeshop.github.io/Jimac/" target="_blank">Jimac</a>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
-                                            <a>Off-Vocal Finder</a>
-                                        </Link>
+                                        <a href="https://okurisae.github.io/off-vocal-finder/" target="_blank">Off-Vocal Finder</a>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
-                                            <a>Apex Fun-Rule SLOT</a>
-                                        </Link>
+                                        <a href="https://okurisae.github.io/apex-funrule-slot/" target="_blank">Apex Fun-Rule SLOT</a>
                                     </li>
                                     <li>
-                                        <Link href="/service-details">
-                                            <a>MinaBook.</a>
-                                        </Link>
+                                        <a href="https://obakeshop.github.io/c99-minabook/index.html" target="_blank">MinaBook.</a>
                                     </li>
                                 </ul>
                             </div>
@@ -102,9 +92,7 @@ class Footer extends Component {
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blogs">
-                                            <a>Blogs</a>
-                                        </Link>
+                                        <a href="https://note.com/okurisae/" target="_blank">Blogs</a>
                                     </li>
                                 </ul>
                             </div>
