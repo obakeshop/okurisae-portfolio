@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import ProductsGrid from '../components/Products/ProductsGrid';
+import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layouts/Footer';
 
 class Products extends Component {
@@ -19,7 +20,7 @@ class Products extends Component {
                 />  
 
                 <ProductsGrid />
-                
+                <Subscribe />
                 <Footer/>
             </>
         );

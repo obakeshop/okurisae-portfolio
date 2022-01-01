@@ -384,12 +384,11 @@
     display: block;
   }
   .free-trial-content {
-    text-align: center;
-    max-width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 15px;
     padding-left: 15px;
+    margin:auto;
   }
   .free-trial-content::after {
     display: block;
@@ -1618,12 +1617,11 @@
     display: block;
   }
   .free-trial-content {
-    text-align: center;
-    max-width: 100%;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 15px;
     padding-left: 15px;
+    margin: auto;
   }
   .free-trial-content::after {
     display: block;
@@ -2115,9 +2113,9 @@
     width: 75%;
   }
   .free-trial-content {
-    max-width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    margin: auto;
   }
   .free-trial-content form .input-newsletter {
     width: 69%;

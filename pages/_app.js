@@ -8,8 +8,8 @@ import '../public/css/style.css';
 import '../public/css/responsive.css';
 
 import App from 'next/app';
-import Head from 'next/head';
 import React from 'react';
+import Seo from '../components/Common/Seo';
 import Loader from '../components/Shared/Loader'; 
 import GoTop from '../components/Shared/GoTop';
 import Modal from 'react-modal';
@@ -37,10 +37,12 @@ export default class MyApp extends App {
 
         return (
             <>
-                <Head>
-                    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-                    <title>Okuri Sae Portfolio | 小栗さえ プロフィールサイト</title>
-                </Head>
+                <Seo
+                    pageTitle={'Okuri Sae Vtuber Portfolio | 小栗さえ プロフィールサイト'}
+                    pageDescription={'小栗さえ プロフィールサイト'}
+                    pagePath={'https://'}
+                    pageImg={'https://'}
+                />
 
                 <Component {...pageProps} />
                 

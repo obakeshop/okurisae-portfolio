@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
 import GalleryContent from '../components/GalleryContent/GalleryContent';
-import FreeTrialForm from '../components/Common/FreeTrialForm';
+import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layouts/Footer';
 
 class Gallery extends Component {
@@ -20,9 +20,7 @@ class Gallery extends Component {
                 />  
 
                 <GalleryContent />
-
-                <FreeTrialForm />
-                
+                <Subscribe />
                 <Footer />
             </>
         );

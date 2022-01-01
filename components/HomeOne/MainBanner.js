@@ -9,20 +9,20 @@ class MainBanner extends Component {
                     <div className="d-table-cell">
                         <div className="container-fluid">
                             <div className="main-banner-content">
-                                <h1>Okuri Sae's Portfolio</h1>
+                                <h1>Okuri Sae Portfolio</h1>
                                 <p>
                                     わりと何でもできるハイブリッドなばーちゃるおばけ。
                                     Vtuberや配信者用のWebツール開発をメインに、のんびりとばーちゃる界を漂っています。<br></br>
                                     プログラミング、歌ってみた、音響技術、企画運営、デザイン、ゲーム配信などなど多方面で活動中！
-                                    ボイスチェンジャーを使った歌ってみたもお上手なので聴いてみてね <i class="fas fa-headphones-alt"></i>
+                                    ボイスチェンジャーを使った歌ってみたもお上手なので聴いてみてね <i className="fas fa-headphones-alt"></i>
                                 </p>
 
                                 <div className="btn-box">
-                                    <Link href="https://www.youtube.com/channel/UCj9IZnU2bKqGqABhQUU6F8g" target="_blank">
+                                    <Link href="#subscribe" target="_blank">
                                         <a className="btn btn-primary">応援する</a>
                                     </Link>
 
-                                    <a className="optional-btn" href="https://twitter.com/OkuriSae" target="_blank"><i class="fab fa-twitter"> View Twitter</i></a>
+                                    <a className="optional-btn" href="https://twitter.com/OkuriSae" target="_blank"><i className="fab fa-twitter"> View Twitter</i></a>
                                 </div>
                             </div>
                         </div>
@@ -35,7 +35,7 @@ class MainBanner extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-featured-services-box">
                                     <div className="icon">
-                                        <i class="fas fa-microphone-alt"></i>
+                                        <i className="fas fa-microphone-alt"></i>
                                     </div>
 
                                     <h3>
@@ -50,7 +50,7 @@ class MainBanner extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="single-featured-services-box active">
                                     <div className="icon">
-                                        <i class="fas fa-tools"></i>
+                                        <i className="fas fa-tools"></i>
                                     </div>
 
                                     <h3>
@@ -65,7 +65,7 @@ class MainBanner extends Component {
                             <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
                                 <div className="single-featured-services-box">
                                     <div className="icon">
-                                        <i class="fas fa-book"></i>
+                                        <i className="fas fa-book"></i>
                                     </div>
 
                                     <h3>

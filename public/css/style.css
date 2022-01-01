@@ -104,6 +104,10 @@ img {
   background-color: #f2f6f9;
 }
 
+.bg-pink {
+  background-color: #fffaf8;
+}
+
 .bg-fafafa {
   background-color: #fafafa;
 }
@@ -3548,6 +3552,7 @@ Free Trial Area CSS
 .free-trial-area {
   position: relative;
   z-index: 1;
+  background-color: #745757;
 }
 
 .free-trial-area::before {
@@ -3664,7 +3669,7 @@ Free Trial Area CSS
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-image: url(/images/sae2.png);
+  background-image: url(/images/subs.jpg);
 }
 
 .free-trial-image img {

@@ -8,7 +8,7 @@ class Products extends Component {
                 <div className="container">
                     <div className="section-title">
                         <h2>バーチャル界をもっと豪華で便利に</h2>
-                        <p>Vtuberや配信者向けのWebサービスやツールを開発しています。 プロフィールサービスや音源検索サイトなど、Vの活動が爆速で豪華になること間違いなし！</p>
+                        <p>Vtuberや配信者向けのWebサービスやツールを開発しています。<br></br>プロフィールサービスや歌ってみたの音源検索、歌枠に字幕を表示したりなどなどVの活動が豪華になること間違いなし！</p>
                     </div>
 
                     <div className="customers-partner-list justify-content-center">
@@ -54,7 +54,7 @@ class Products extends Component {
 
                     <div className="text-center mt-5">
                         <Link href="/songs">
-                            <a class="learn-more-btn">全サービスを見る <i class="fas fa-arrow-right"></i></a>
+                            <a className="learn-more-btn">全サービスを見る <i className="fas fa-arrow-right"></i></a>
                         </Link>
                     </div>
                 </div>

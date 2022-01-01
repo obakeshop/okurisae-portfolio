@@ -29,7 +29,7 @@ class SampleSong extends Component {
                                 </p>
 
                                 <Link href="/songs">
-                                    <a className="btn btn-primary">もっと詳しく</a>
+                                    <a className="btn btn-primary">他の曲も聴いてみる</a>
                                 </Link>
                             </div>
                         </div>

@@ -130,7 +130,7 @@ class Navbar extends Component {
                                     </ul>
                                     
                                     <div className="others-options">
-                                        <Link href="/contact">
+                                        <Link href="#subscribe">
                                             <a className="btn btn-primary">Subscribe!</a>
                                         </Link>
                                     </div>

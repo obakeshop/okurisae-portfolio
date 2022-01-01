@@ -144,7 +144,7 @@ class SongsContent extends Component {
                                                     </h3>
                                                     
                                                     <a className="learn-more-btn" href={`https://www.youtube.com/watch?v=${song.youtube_id}`} target="_blank">
-                                                        View on YouTube <i class="fab fa-youtube"></i>
+                                                        View on YouTube <i className="fab fa-youtube"></i>
                                                     </a>
                                                 </div>
                                             </div>

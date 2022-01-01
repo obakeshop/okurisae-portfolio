@@ -16,28 +16,26 @@ class Footer extends Component {
                                     <a href="/">
                                         <img src="/images/white-logo.png" alt="image" />
                                     </a>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                    <p>
+                                        当ポートフォリオサイトは小栗さえが代表するバーチャルツール開発サークル『おばけや』によって管理運営されています。<br></br>
+                                        ご依頼やご相談がある方は 小栗さえ の Twitter DM よりご連絡をお願いします。
+                                    </p>
                                 </div>
 
                                 <ul className="social">
-                                    <li> 
-                                        <a href="https://www.facebook.com/" target="_blank">
-                                            <i className="flaticon-facebook-letter-logo"></i>
-                                        </a>
-                                    </li>
                                     <li>
-                                        <a href="https://twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/OkuriSae" target="_blank">
                                             <i className="flaticon-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/" target="_blank">
-                                            <i className="flaticon-instagram-logo"></i>
+                                        <a href="https://www.youtube.com/c/OkuriSae" target="_blank">
+                                            <i className="flaticon-youtube-play-button"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.youtube.com/" target="_blank">
-                                            <i className="flaticon-youtube-play-button"></i>
+                                        <a href="https://github.com/OkuriSae" target="_blank">
+                                        <i className="fab fa-github"></i>
                                         </a>
                                     </li>
                                 </ul>
@@ -51,27 +49,27 @@ class Footer extends Component {
                                 <ul className="footer-services-list">
                                     <li>
                                         <Link href="/service-details">
-                                            <a>Product Engineering</a>
+                                            <a>Meish</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/service-details">
-                                            <a>UX/UI Design</a>
+                                            <a>Jimac</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/service-details">
-                                            <a>Big Data Analysis</a>
+                                            <a>Off-Vocal Finder</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/service-details">
-                                            <a>Desktop Applications</a>
+                                            <a>Apex Fun-Rule SLOT</a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="/service-details">
-                                            <a>Mobile Applications</a>
+                                            <a>MinaBook.</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -85,27 +83,27 @@ class Footer extends Component {
                                 <ul className="quick-links-list">
                                     <li>
                                         <Link href="/about">
-                                            <a>About Us</a>
+                                            <a>About</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/blog">
-                                            <a>Blog</a>
+                                        <Link href="/products">
+                                            <a>Products</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/contact">
-                                            <a>Contact</a>
+                                        <Link href="/gallery">
+                                            <a>Gallery</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/services">
-                                            <a>Services</a>
+                                        <Link href="/songs">
+                                            <a>Songs</a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/pricing">
-                                            <a>Pricing</a>
+                                        <Link href="/blogs">
+                                            <a>Blogs</a>
                                         </Link>
                                     </li>
                                 </ul>
@@ -118,20 +116,16 @@ class Footer extends Component {
 
                                 <ul className="footer-contact-list">
                                     <li>
-                                        <span>Address:</span> 
-                                        2750 Quadra Street <br /> Victoria, Canada
+                                        <span>Twitter:</span> 
+                                        @OkuriSae
+                                    </li>
+                                    <li>
+                                        <span>Discord:</span> 
+                                        小栗さえ#7371
                                     </li>
                                     <li>
                                         <span>Email:</span>
-                                        bariton@gmail.com
-                                    </li>
-                                    <li>
-                                        <span>Phone:</span> 
-                                        +44 587 154756
-                                    </li>
-                                    <li>
-                                        <span>Fax:</span> 
-                                        +44 785 4578964
+                                        sae.okuri@gmail.com
                                     </li>
                                 </ul>
                             </div>
@@ -140,25 +134,10 @@ class Footer extends Component {
                 </div>
 
                 <div className="copyright-area">
-                    <div className="container">
+                    <div className="container text-center">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                                <p>Copyright &copy;{currentYear} Bariton. All Rights Reserved <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>.</p>
-                            </div>
-
-                            <div className="col-lg-6 col-md-6 col-sm-6">
-                                <ul>
-                                    <li>
-                                        <Link href="/privacy-policy">
-                                            <a>Privacy Policy</a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="/terms-conditions">
-                                            <a>Terms & Conditions</a>
-                                        </Link>
-                                    </li>
-                                </ul>
+                            <div className="col-lg-12 col-md-12 col-sm-12">
+                                <p>Copyright &copy;{currentYear} OkuriSae. All Rights Reserved <a href="https://github.com/obakeshop" target="_blank">Obakeya</a>.</p>
                             </div>
                         </div>
                     </div>

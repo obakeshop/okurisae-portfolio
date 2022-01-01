@@ -46,7 +46,7 @@ class Products extends Component {
                                             <p>{product.caption}</p>
                                             
                                             <a className="learn-more-btn" href={product.codeUrl} target="_blank">
-                                                View Repo <i class="fab fa-github"></i>
+                                                View Repo <i className="fab fa-github"></i>
                                             </a>
                                         </div>
                                     </div>

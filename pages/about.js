@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import PageBanner from '../components/Common/PageBanner';
+import Subscribe from '../components/Common/Subscribe';
 import Footer from '../components/Layouts/Footer';
 import Link from 'next/link';
 
@@ -86,7 +87,7 @@ class About extends Component {
                                 
                                 <div className="mb-4">
                                     <Link href="/products" activeClassName="active">
-                                        <a className="btn btn-primary"><i class="fas fa-tools"></i> 便利なWebツールを見る</a>
+                                        <a className="learn-more-btn"><i className="fas fa-tools"></i> 便利なWebツールを見にいく</a>
                                     </Link>
                                 </div>
 
@@ -122,7 +123,7 @@ class About extends Component {
 
                                 <div className="mb-4">
                                     <Link href="/songs" activeClassName="active">
-                                        <a className="btn btn-primary"><i class="fas fa-headphones-alt"></i> 歌ってみたを聞く</a>
+                                        <a  className="learn-more-btn"><i className="fas fa-headphones-alt"></i> 歌ってみたを聞く</a>
                                     </Link>
                                 </div>
 
@@ -212,6 +213,7 @@ class About extends Component {
                     </div>
                 </div>
            
+                <Subscribe />
                 <Footer />
             </React.Fragment>
         );
